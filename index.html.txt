@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beta Reader Questionnaire</title>
+  <style>
+    body {
+      font-family: Verdana, Garamond, serif;
+      margin: 2rem auto;
+      max-width: 800px;
+      padding: 2rem;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #2f4f2f;
+      border-bottom: 2px solid #2f4f2f;
+      padding-bottom: 0.2em;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+    textarea, input[type="text"] {
+      width: 100%;
+      padding: 0.7rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    button {
+      background-color: #2f4f2f;
+      color: white;
+      padding: 1rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3f663f;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Beta Reader Questionnaire – Opening Chapter</h1>
+  <p><strong>Thank you so much for reading.</strong> Your time and feedback mean a great deal to me. Please be honest—even if something didn’t work for you. I want to know if you were bored, confused, or simply uninterested. That kind of feedback is just as useful as praise, and it will help me shape this book into something stronger.</p>
+  <p>Take your time. Be as detailed or as brief as you'd like. Everything you share is appreciated.</p>
+
+  <form action="https://formspree.io/f/mdkgvwee" method="POST">
+    <section>
+      <h2>Overall Impressions</h2>
+      <label>What was your overall impression of the opening chapter?</label>
+      <textarea name="overall_impression" rows="4"></textarea>
+
+      <label>What did you enjoy the most? Why?</label>
+      <textarea name="enjoyed_most" rows="4"></textarea>
+
+      <label>What did you enjoy the least? Why?</label>
+      <textarea name="enjoyed_least" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>Engagement</h2>
+      <label>Where did you feel most hooked by the story?</label>
+      <textarea name="hooked_point" rows="4"></textarea>
+
+      <label>What drew your interest in this chapter? Please explain.</label>
+      <textarea name="interest_point" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>Setting & Theme</h2>
+      <label>Did the world and time period feel authentic and immersive?</label>
+      <textarea name="world_immersion" rows="4"></textarea>
+
+      <label>What did you take away as the main theme of the story?</label>
+      <textarea name="main_theme" rows="4"></textarea>
+
+      <label>Was there anything that detracted from this theme?</label>
+      <textarea name="theme_detractors" rows="4"></textarea>
+
+      <label>Does this theme interest you as a reader?</label>
+      <textarea name="theme_interest" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>Plot & Clarity</h2>
+      <label>Did the plot make sense to you overall?</label>
+      <textarea name="plot_sense" rows="4"></textarea>
+
+      <label>Was there a moment or section you couldn’t put down?</label>
+      <textarea name="unputdownable" rows="4"></textarea>
+
+      <label>Were there any passages or parts that didn’t make sense to you? If so, where?</label>
+      <textarea name="confusing_passages" rows="4"></textarea>
+
+      <label>Did you find the non-linear storytelling in this chapter to be intriguing? Explain.</label>
+      <textarea name="nonlinear_storytelling" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>Reading Flow</h2>
+      <label>Were there any sections that caused you to pause or step away from reading?</label>
+      <textarea name="pause_points" rows="4"></textarea>
+
+      <label>If so, what was your reason for doing so?</label>
+      <textarea name="pause_reasons" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>The Protagonist</h2>
+      <label>What were your thoughts on the protagonist?</label>
+      <textarea name="protagonist_thoughts" rows="4"></textarea>
+
+      <label>Did you find them interesting? Why or why not?</label>
+      <textarea name="protagonist_interest" rows="4"></textarea>
+
+      <label>Was there anything about them that made you not want to follow their journey?</label>
+      <textarea name="protagonist_disinterest" rows="4"></textarea>
+
+      <label>Was it clear what the protagonist wanted and where they were headed?</label>
+      <textarea name="protagonist_goal" rows="4"></textarea>
+
+      <label>Were the stakes believable enough for you to understand their motivations?</label>
+      <textarea name="protagonist_motivation" rows="4"></textarea>
+
+      <label>Did you have a clear sense of how the protagonist felt about their situation?</label>
+      <textarea name="protagonist_emotion" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>Writing Style</h2>
+      <blockquote><em>Note: The writing style draws on realist, romanticist, and impressionist traditions from the 18th and 19th centuries.</em></blockquote>
+
+      <label>What was your initial impression of the writing style?</label>
+      <textarea name="style_impression" rows="4"></textarea>
+
+      <label>Did the language or style present any challenges? Please explain.</label>
+      <textarea name="style_challenges" rows="4"></textarea>
+
+      <label>Did the style help immerse you in the story and setting?</label>
+      <textarea name="style_immersion" rows="4"></textarea>
+
+      <label>Did it contribute to an oppressive or ambiguous atmosphere?</label>
+      <textarea name="style_atmosphere" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>Strengths & Weaknesses</h2>
+      <label>What were the two biggest weaknesses in this chapter?</label>
+      <textarea name="weaknesses" rows="4"></textarea>
+
+      <label>What do you feel is missing from this opening?</label>
+      <textarea name="missing_elements" rows="4"></textarea>
+
+      <label>What was the strongest element of this chapter?</label>
+      <textarea name="strength" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>What Stayed With You?</h2>
+      <label>Can you point to any lines or passages that you really loved?</label>
+      <textarea name="favorite_lines" rows="4"></textarea>
+
+      <label>What imagery stayed with you the most?</label>
+      <textarea name="memorable_imagery" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>Looking Forward</h2>
+      <label>Where do you think the story and characters are headed?</label>
+      <textarea name="future_expectation" rows="4"></textarea>
+
+      <label>Would you want to continue reading? Why or why not?</label>
+      <textarea name="continue_reading" rows="4"></textarea>
+    </section>
+
+    <section>
+      <h2>Final Thoughts</h2>
+      <label>How would you describe this book to someone else in just a few sentences?</label>
+      <textarea name="book_summary" rows="4"></textarea>
+    </section>
+
+    <p><strong>Thank you so much for your time, Cam.</strong></p>
+    <button type="submit">Submit Feedback</button>
+  </form>
+</body>
+</html>
